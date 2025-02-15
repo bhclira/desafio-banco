@@ -2,7 +2,7 @@
 
 public abstract class Conta implements IConta{
     
-     // se eu criar uma conta, será 1, se eu criar outra conta será 2 e assim por diante
+    // se eu criar uma conta, será 1, se eu criar outra conta será 2 e assim por diante
     private static final int AGENCIA_PADRAO = 1;
     private static int SEQUENCIAL = 1;
        
@@ -17,24 +17,25 @@ public abstract class Conta implements IConta{
         this.numero = SEQUENCIAL++;
     }
 
+    // métodos abstratos
     @Override
     public void depositar(double valor) {
-        
+        saldo += valor;
         
     }
 
     @Override
     public void sacar(double valor) {
-        
+        saldo -= valor;
         
     }
 
     @Override
     public void transferir(double valor, Conta contaDestino) {
-        
+        this.sacar(valor); // no objeto de origem
+        contaDestino.depositar(valor); // no objeto de destino
         
     }
-
 
     // getters
     public int getAgencia() {
@@ -49,5 +50,10 @@ public abstract class Conta implements IConta{
         return saldo;
     }
 
+    protected void imprimirInfosComuns() {
+        System.out.println(String.format("Agência: %d", this.agencia));
+        System.out.println(String.format("Numero: %d", this.numero));
+        System.out.println(String.format("Numero: %.2f", this.saldo));
+    }
 
 }
