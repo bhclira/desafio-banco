@@ -1,18 +1,40 @@
-## Getting Started
+## Início
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Objetivo: O objetivo deste projeto prático hands-on é reforçar o conhecimento em Programação Orientada a Objetos (POO) em Java, através da implementação de um banco digital.
 
-## Folder Structure
+![Imagem do Projeto](img/code-main-desafio.png)
 
-The workspace contains two folders by default, where:
+Descrição: Neste projeto, foram utilizados os conceitos de POO e Java aprendidos nos cursos da Formação Java Developer para criar um banco digital. O contexto bancário será explorado para explorar os pilares da orientação a objetos, e assim sendo, a aplicação será capaz de: 
+- criar contas corrente e/ou poupança (implementadas com SEQUENCIAL);
+- Efetuar saques dessas contas;
+- Imprimir extratos com saídas devidamente formatadas;
+- Fazer transferências bancárias para outras contas ou poupanças existentes.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+#### Features Adicionais:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+  Para essa parte do desafio, foi criada uma branch "desafio-breno" onde foram implementadas as seguintes melhorias:
+  - Criar uma lista de Contas na classe Banco;
+  - Indexar a um cliente cada conta criada;
+  - Imprimir um extrato com nome do cliente;
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Requisitos Técnicos:
+- Conhecimentos básicos de Programação Orientada a Objetos em Java;
+- Ambiente de desenvolvimento Java configurado;
+- Acesso à internet para acesso ao projeto de referência no GitHub;
+- Familiaridade com o uso de repositórios Git (opcional, mas recomendado);
+- Capacidade de abstração para reproduzir a solução proposta e implementar melhorias.
 
-## Dependency Management
+## Estrutura de pastas
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+A área de trabalho contém duas pastas por default, onde:
+
+- `src`: pasta para manter as fontes
+- `lib`: pasta para manter as depenências
+
+Enquanto isso, o compilador de arquivos de saída será gerado na pasta `bin` por default.
+
+> Se você quiser personalizar a estrutura de pastas, abra `.vscode/settings.json` e atualize as configurações relacionadas lá.
+
+## Gerenciamento de Dependências
+
+A visualização `JAVA PROJECTS` permite que você gerencie suas dependências. Mais detalhes podem ser encontrados [aqui](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
