@@ -1,10 +1,11 @@
 ## Início
 
 Objetivo: O objetivo deste projeto prático hands-on é reforçar o conhecimento em Programação Orientada a Objetos (POO) em Java, através da implementação de um banco digital.
+#### Gráfico UML do projeto: 
+![Imagem do Projeto](img/uml-desafiobanco.png)
 
-![Imagem do Projeto](img/code-main-desafio.png)
-
-Descrição: Neste projeto, foram utilizados os conceitos de POO e Java aprendidos nos cursos da Formação Java Developer para criar um banco digital. O contexto bancário será explorado para explorar os pilares da orientação a objetos, e assim sendo, a aplicação será capaz de: 
+#### Descrição:
+Neste projeto, foram utilizados os conceitos de POO e Java aprendidos nos cursos da Formação Java Developer para criar um banco digital e conceitos extras de confecção de gráficos UML. O contexto bancário será explorado para explorar os pilares da orientação a objetos, e assim sendo, a aplicação será capaz de: 
 - criar contas corrente e/ou poupança (implementadas com SEQUENCIAL);
 - Efetuar saques dessas contas;
 - Imprimir extratos com saídas devidamente formatadas;
@@ -12,10 +13,10 @@ Descrição: Neste projeto, foram utilizados os conceitos de POO e Java aprendid
 
 #### Features Adicionais:
 
-  Para essa parte do desafio, foi criada uma branch "desafio-breno" onde foram implementadas as seguintes melhorias:
-  - Criar uma lista de Contas na classe Banco;
-  - Indexar a um cliente cada conta criada;
-  - Imprimir um extrato com nome do cliente;
+Para essa parte do desafio, foi criada uma branch "desafio-breno" onde foram implementadas as seguintes melhorias:
+- Criar uma lista de Contas na classe Banco;
+- Indexar a um cliente cada conta criada;
+- Imprimir um extrato com nome do cliente;
 
 Requisitos Técnicos:
 - Conhecimentos básicos de Programação Orientada a Objetos em Java;
